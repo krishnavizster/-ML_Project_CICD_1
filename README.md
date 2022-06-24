@@ -9,3 +9,15 @@ conda create -p mlenv python==3.7 -y
 conda activate mlenv/
 #To install requirements.txt fiel 
 pip install -r requirements.txt 
+#To add file 
+git add .
+git status 
+git log
+git commit 
+
+#to send version /chnages 
+git push origin main
+#to check remote url
+
+"git remote -v
+git push origin mian 
