@@ -169,3 +169,24 @@ pip install ipykernel
 Data Drift: When your datset stats gets change we call it as data drift
 
 Write a function to get training file path from artifact dir
+
+os.getcwd()
+os.chdir(("here copy the path got from os.getcwd command only upto project folder not notebook folder on this path")
+os.list(".") #ro check the list folders and files 
+
+config_file_path = os.path.join("config","config.yml")
+#to chek fiel path 
+config_file_path 
+
+#to check only this file path available or not 
+os.path.exists(config_file_path)
+
+#Hot to read yaml files  
+config_info=None
+with open(config_file_path,'rb') as yaml_file:
+
+      config_info=yaml.safe_load(yaml_file)
+      
+
+#now open 
+cofig_info 
